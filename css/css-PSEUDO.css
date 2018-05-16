@@ -1,0 +1,509 @@
+* {
+	box-sizing: border-box;
+}
+
+/* MOBILE-FIRST */
+
+#container {
+	width: 100%;
+	height: 1390px;
+/*	border: 1px solid red; */
+}
+
+#circle {
+	margin-top: -55px;
+	width: 100%;
+	height: 110px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#circle img {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 100%;
+	height: 490px;
+	background: url(../images/NR-portrait.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+.extralives {
+	width: 100%;
+	height: 250px;
+	background: url(../images/bretonraminus1.jpg) no-repeat top;
+	background-size: 80%;
+}
+
+.quoteblock {
+	text-align: center;
+	width: 80%;
+	margin: -15px auto 0px auto;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.2;
+}
+
+.quoteblock span {
+	text-align: center;
+	width: 80%;
+	margin: -15px auto 0px auto;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.2;
+}
+
+blockquote {
+	text-align: center;
+}
+
+blockquote img {
+	display: inline;
+	height: 20px;
+}
+
+h3 {
+	text-align: right;
+	margin: 10px 20px 0px 0px;
+	font-weight: 300;
+	font-size: .9rem;
+	margin-bottom: 15px;
+}
+
+.sayings {
+	margin-top: 30px;
+	background: rgb(0, 184, 193);
+	padding: 3px 10px 3px 10px;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-weight: 600;
+	font-size: 1.05rem;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
+a.sayings{
+	text-decoration: none;
+}
+
+a.sayings:active {
+	background: rgb(255, 30, 80);
+}
+
+.grayline {
+	margin: 20px auto 15px auto;
+	width: 60%;
+	height: 2px;
+	background: rgb(200, 200, 215);
+	border-radius: 5px;
+}
+
+.port-preview {
+	width: 100%;
+	height: 160px;
+	margin: 8px auto;
+/*	border: 1px solid blue; */
+}
+
+.design-blur {
+	background: url(../images/hw-megavolt-2018-blurred.jpg) center;
+	background-size: cover;
+	height: 100%;
+	margin-top: -160px;
+}
+
+.design-clear {
+	background: url(../images/hw-megavolt-2018.jpg) center;
+	background-size: cover;
+	height: 100%;
+}
+
+.acting-blur {
+	background: url(../images/headshot-night-blurred.jpg) center;
+	background-size: cover;
+	height: 100%;
+	margin-top: -160px;
+}
+
+.acting-clear {
+	background: url(../images/headshot-night.jpg) center;
+	background-size: cover;
+	height: 100%;
+}
+
+.music-blur {
+	background: url(../images/ftp-el-blurred.jpg) center;
+	background-size: cover;
+	height: 100%;
+	margin-top: -160px;
+}
+
+.music-clear {
+	background: url(../images/ftp-el.jpg) center;
+	background-size: cover;
+	height: 100%;
+}
+
+.design-overview {
+	background: white;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin: 5px auto;
+	/*border: 1px solid orange; */
+}
+
+.acting-overview {
+	background: white;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin: 5px auto;
+/*	border: 1px solid orange; */
+}
+
+.music-overview {
+	background: white;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin: 5px auto;
+/*	border: 1px solid orange; */
+}
+
+.first {
+	cursor: pointer;
+}
+
+.second {
+	cursor: pointer;
+}
+
+.third {
+	cursor: pointer;
+}
+
+h1 {
+	font-family: 'Economica', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.25;
+	margin-left: 25px;
+	padding-bottom: 15px;
+}
+
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.1rem;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	color: rgb(0, 184, 193);
+	padding: 5px 0px;
+}
+
+p {
+	font-family: 'Economica', sans-serif;
+	font-size: .9rem;
+	border-radius: 5px;
+	color: rgb(90, 90, 90);
+	line-height: 1.25;
+}
+
+.portlink {
+	background: rgb(240, 240, 240);
+	padding: 1.5px 5px 1.5px 5px;
+	color: rgb(60, 60, 60);
+	font-family: 'Teko', sans-serif;
+	font-weight: 600;
+	font-size: .9rem;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
+a.portlink{
+	text-decoration: none;
+}
+
+a.portlink.blue:active {
+	background: rgb(0, 184, 193);
+	color: white;
+}
+
+a.portlink.purple:active {
+	background: rgb(115, 38, 115);
+	color: white;
+}
+
+a.portlink.red:active {
+	background: rgb(255, 30, 80);
+	color: white;
+}
+
+.illmatic {
+	width: 100%;
+	height: 320px;
+	background: url(../images/Nee-Matic.jpg) top right;
+	background-size: cover;
+}
+
+.social {
+	height: 70px;
+	margin-top: -300px;
+}
+
+.socal a {
+	width: 70px;
+}
+
+footer h1 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 600;
+	font-size: 1.4em;
+}
+
+.social img {
+	display: block;
+	padding-bottom: 10px;
+	margin-left: 30px;
+	height: 100%;
+}
+
+.legal {
+	margin-top: 10px;
+}
+
+.song {
+	margin: 0 auto;
+	width: 75%;
+}
+
+.song h2 {
+	font-size: .75rem;
+}
+
+/* Vimeo Styling: mobile first*/
+
+.vimeo {
+	margin-bottom: 15px;
+}
+
+/******** Quick Coloration ********/
+
+.black {
+	color: black;
+}
+
+.gray {
+	color: rgb(200, 200, 215);
+}
+
+.white {
+	color: white;
+}
+
+.blue {
+	color: rgb(0, 184, 193);
+}
+
+.blueback {
+	background: rgb(0, 184, 193);
+}
+
+.purple {
+	color: rgb(115, 38, 115);
+}
+
+.purpleback {
+	background: rgb(115, 38, 115);
+}
+
+.red {
+	color: rgb(255, 30, 80);
+}
+
+.redback {
+	background: rgb(255, 30, 80);
+}
+
+/******** Visibility & Spacing ********/
+
+.hidden {
+	display: none;
+}
+
+.clearfix:after {
+	content:".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.centered {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* RESPONSIVE: DESKTOP */
+
+@media screen and (min-width: 1025px) {
+
+	body {
+		background: url(../images/Nee-Matic.jpg) no-repeat fixed;
+		background-size: cover;
+	}
+
+	#container {
+		background: white;
+		margin: 0 auto;
+		width: 80%;
+		height: 1300px;
+		box-shadow: 0px 0px 40px -2px;
+	}
+
+	.hero {
+		margin: 0 auto;
+		width: 100%;
+		height: 360px;
+		background: url(../images/headshot-peach.jpg) no-repeat top center;
+		background-size: cover;
+	}
+
+		/* ADDITIONAL HEADER COVERS */
+
+		.extralives {
+			width: 100%;
+			height: 330px;
+			background: url(../images/ftp-el.jpg) no-repeat center fixed;
+			background-size: cover;
+		}
+
+		.actorslife {
+			width: 100%;
+			height: 330px;
+			background: url(../images/ftp-el.jpg) no-repeat center fixed;
+			background-size: cover;
+		}
+
+		.vitacoco {
+			width: 100%;
+			height: 330px;
+			background: url(../images/ftp-el.jpg) no-repeat center fixed;
+			background-size: cover;
+		}
+
+	h1 {
+		font-size: 2.5rem;		
+	}
+
+	section {
+		width: 100%;
+		height: 275px;
+		margin: 0 auto;
+	}
+
+	.first {
+		float: left;
+	}
+
+	.second {
+		float: left;
+		padding-left: 5px;
+	}
+
+	.third {
+		float: left;
+		padding-left: 5px;
+	}
+
+	.port-preview {
+		width: 33.3333%;
+		height: 260px;
+	}
+
+	.design-blur, .acting-blur, .music-blur {
+		margin-top: -260px;
+	}
+
+	.design-overview {
+		float: center;
+		position: absolute;
+		margin-top: 250px;
+		margin-left: 0vw;
+		width: 26.75%;
+		height: 9%;
+	/*	border-radius: 10px;*/
+	}
+
+	.acting-overview {
+		float: center;
+		position: absolute;
+		margin-top: 250px;
+		margin-left: 26.8vw;
+		width: 26.75%;
+		height: 9%;
+	/*	border-radius: 10px;*/
+	}
+
+	.music-overview {
+		float: center;
+		position: absolute;
+		margin-top: 250px;
+		margin-left: 53.33vw;
+		width: 26.7%;
+		height: 9%;
+	/*	border-radius: 10px;*/
+	}
+
+	.mobileDesuka {
+		display: none;
+	}
+
+	#circle {
+		margin-top: -75px;
+		height: 150px;
+	}
+
+	h3 {
+		margin-left: 15px;
+		text-align: center;
+	}
+
+	.quoteblock {
+		width: 50%;
+	}
+
+	/*Vimeo Styling - DESKTOP */
+
+	.vimeo {
+		width:50%;
+		height:50%;
+	}
+
+	.vimleft {
+		padding: 0px 2.5px 0px 5px;
+		float: left;
+	}
+	
+	.vimright {
+		padding: 0px 5px 0px 2.5px;
+		float: right;
+	}
+
+	.song h2 {
+		font-size: 1.2rem;
+	}
+
+}
+
+/* RESPONSIVE: TABLET & TRANSITION */
+
+@media screen and (min-width: 1026px) and (max-width: 1110px) {
+	.hidden p {
+		font-size: .8rem;
+	}
+
+	a.portlink {
+		margin: none;
+		margin-top: -100px;
+	}
+
+}
