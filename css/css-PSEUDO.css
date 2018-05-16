@@ -106,14 +106,14 @@ a.sayings:active {
 }
 
 .design-blur {
-	background: url(../images/hw-megavolt-2018-blurred.jpg) center;
+	background: url(../images/hw-megavolt-blurred.jpg) center;
 	background-size: cover;
 	height: 100%;
 	margin-top: -160px;
 }
 
 .design-clear {
-	background: url(../images/hw-megavolt-2018.jpg) center;
+	background: url(../images/hw-megavolt.jpg) center;
 	background-size: cover;
 	height: 100%;
 }
