@@ -16,14 +16,20 @@ $(document).ready(function(){
 		" Mr. Stark? I don't feel so good... ",
 		" Success is contigent upon saying things like 'contigent upon.' ",
 		" Need help naming your improv show? Put a 'prov' on it. ",
-		" After recent events, I have retired from doing Aziz impressions. ",
+		" Due to recent events, I am now retired from doing Aziz impressions. ",
 		" Red flags are green if you're colorblind. ",
 		" Great! Another casting call for Halal Cart Guy #2. ",
 		" Cool? Cool. ",
 		" var quotes = ['meta jokes suck'] $('blockquote').lame(quotes); ",
-		" Thanks, Obama (unironically). ",
+		" Thanks, Obama (said earnestly & unironically). ",
 		" Men are dogs, but chicks are baby chickens. ",
 		" ATLANTAAA! ....... UUUNITED! ",
+		" I <3 NY, but New York never loved me back... ",
+		" My brother, Tutul Rahman, is kind of a big deal. ",
+		" With beard: 29 years old. Without: 19. ",
+		" Compare headshots like the business card scene in American Psycho. ",
+		" Yoko Kanno = God... Don't know her music? We can't be friends. ",
+		" Landon Mothafuckin' Donovan. ",
 	];
 
 // QUOTE CHANGER //
