@@ -2,6 +2,14 @@ $(document).ready(function(){
 
 	// alert('hello world');
 
+// E-MAIL ALERT //
+
+	$('.gmail').click(function(event){
+		event.preventDefault();
+		alert('neetolrahman@gmail.com');
+
+	});
+
 // QUOTE ARRAY // 
 
 	var quotes = [
@@ -15,6 +23,7 @@ $(document).ready(function(){
 		" var quotes = ['meta jokes suck'] $('blockquote').lame(quotes); ",
 		" Thanks, Obama (unironically). ",
 		" Men are dogs, but chicks are baby chickens. ",
+		" ATLANTAAA! ....... UUUNITED! ",
 	];
 
 // QUOTE CHANGER //

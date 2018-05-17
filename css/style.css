@@ -23,6 +23,25 @@
 	margin: 0 auto;
 }
 
+.homebound {
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+	width: 150px;
+}
+
+nav {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: -60px;
+}
+
+nav a {
+	text-align: center;
+	width: 68px;
+	margin-top: 0px;
+}
+
 .hero {
 	width: 100%;
 	height: 490px;
@@ -30,12 +49,28 @@
 	background-size: cover;
 }
 
-.extralives {
-	width: 100%;
-	height: 250px;
-	background: url(../images/bretonraminus1.jpg) no-repeat top;
-	background-size: 80%;
-}
+	/* ADDITIONAL HEADER COVERS: MOBILE */
+
+	.extralives {
+		width: 100%;
+		height: 250px;
+		background: url(../images/bretonraminus1.jpg) no-repeat top;
+		background-size: 80%;
+	}
+
+	.vitacoco {
+		width: 100%;
+		height: 250px;
+		background: url(../images/hw-megavolt.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	.actorslife {
+		width: 100%;
+		height: 250px;
+		background: url(../images/nr-nightshot.jpg) no-repeat center;
+		background-size: cover;
+	}
 
 .quoteblock {
 	text-align: center;
@@ -82,7 +117,23 @@ h3 {
 	letter-spacing: 1px;
 }
 
+.pagelink {
+	margin-top: 30px;
+	background: rgb(0, 184, 193);
+	padding: 3px 10px 3px 10px;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-weight: 600;
+	font-size: 1.05rem;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
 a.sayings{
+	text-decoration: none;
+}
+
+a.pagelink {
 	text-decoration: none;
 }
 
@@ -98,11 +149,24 @@ a.sayings:active {
 	border-radius: 5px;
 }
 
+.whiteline {
+	margin: 10px auto 10px auto;
+	width: 60%;
+	height: 2px;
+	background: white;
+	border-radius: 5px;
+}
+
 .port-preview {
 	width: 100%;
 	height: 160px;
 	margin: 8px auto;
 /*	border: 1px solid blue; */
+}
+
+.design-back {
+	background: url(../images/design-back.jpg) center;
+	background-size: 150%;
 }
 
 .design-blur {
@@ -170,6 +234,33 @@ a.sayings:active {
 	margin: 5px auto;
 /*	border: 1px solid orange; */
 }
+
+	/* DESIGN: RESUME */
+
+	.resume-preview {
+		margin: 0 auto 30px auto;
+		height: 80vw;
+		background: white;
+		width: 90%;
+		border: 1px solid lightgray;
+		border-radius: 20px;
+		overflow: scroll;
+		cursor: crosshair;
+	}
+
+	.resume-preview img {
+		margin: 0 auto;
+		width: 225%;
+	}
+
+	.resume-description {
+		margin: 0px auto 10px auto;
+		width: 80%;
+	}
+
+	.d-space {
+		height: 500px;
+	}
 
 .first {
 	cursor: pointer;
@@ -272,12 +363,13 @@ footer h1 {
 }
 
 .song {
+	margin-top: 20px;
 	margin: 0 auto;
 	width: 75%;
 }
 
 .song h2 {
-	font-size: .75rem;
+	font-size: .9rem;
 }
 
 /* Vimeo Styling: mobile first*/
@@ -298,6 +390,10 @@ footer h1 {
 
 .white {
 	color: white;
+}
+
+.whiteback {
+	background: white;
 }
 
 .blue {
@@ -337,18 +433,82 @@ footer h1 {
 	visibility: hidden;
 }
 
+.clearfix {
+	clear: both;
+}
+
 .centered {
 	text-align: center;
 	margin: 0 auto;
+}
+
+.desktopDesu {
+	display: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 /* RESPONSIVE: DESKTOP */
 
 @media screen and (min-width: 1025px) {
 
+	.desktopDesu {
+		display: block;
+	}
+
+	.widefooter {
+		width: 100%;
+		height: 100px;
+		background: rgba(200, 200, 215, .4);
+		margin-top: 350px;
+	}
+
+	.widefooter a {
+		margin-top: -25px;
+		width: 20px;
+		height: 20px;
+		color: rgba(0,0,0,0);
+		margin: 0px 20px;
+	}
+
+	.widefooter a img {
+		margin-top: 30px;
+		height: 50%;
+	}
+
+	.stickyfoot {
+		width: 80%;
+		position: center absolute;
+		margin-top: -130px;
+	}
+
+	.stickyfoot .widefooter {
+		margin-top: 0px;
+	}
+
+	.legal {
+		height: 20px;
+		padding: none;
+		margin-top: 22px;
+		overflow: hidden;
+	}
+
 	body {
 		background: url(../images/Nee-Matic.jpg) no-repeat fixed;
 		background-size: cover;
+	}
+
+	nav {
+		margin: -80px auto 40px auto;
+		width: 60%;
+		position: center-absolute;
+
 	}
 
 	#container {
@@ -357,6 +517,14 @@ footer h1 {
 		width: 80%;
 		height: 1300px;
 		box-shadow: 0px 0px 40px -2px;
+	}
+
+	.container-bottom {
+		background: white;
+		margin: 0 auto;
+		width: 80%;
+		height: 50px;
+	/*	box-shadow: 0px 0px 40px -2px;*/
 	}
 
 	.hero {
@@ -370,24 +538,24 @@ footer h1 {
 		/* ADDITIONAL HEADER COVERS */
 
 		.extralives {
-			width: 100%;
-			height: 330px;
-			background: url(../images/ftp-el.jpg) no-repeat center fixed;
-			background-size: cover;
+			height: 250px;
+			background: url(../images/ftp-el.jpg) no-repeat center;
+			background-size: 100%;
+			background-position: cover;
 		}
 
 		.actorslife {
-			width: 100%;
-			height: 330px;
-			background: url(../images/ftp-el.jpg) no-repeat center fixed;
-			background-size: cover;
+			height: 250px;
+			background: url(../images/nr-nightshot.jpg) no-repeat center;
+			background-size: 100%;
+			background-position: cover;
 		}
 
 		.vitacoco {
-			width: 100%;
-			height: 330px;
-			background: url(../images/ftp-el.jpg) no-repeat center fixed;
-			background-size: cover;
+			height: 250px;
+			background: url(../images/hw-megavolt.jpg) no-repeat center;
+			background-size: 100%;
+			background-position: cover;
 		}
 
 	h1 {
@@ -428,7 +596,7 @@ footer h1 {
 		position: absolute;
 		margin-top: 250px;
 		margin-left: 0vw;
-		width: 26.75%;
+		width: 26.8%;
 		height: 9%;
 	/*	border-radius: 10px;*/
 	}
@@ -447,8 +615,8 @@ footer h1 {
 		float: center;
 		position: absolute;
 		margin-top: 250px;
-		margin-left: 53.33vw;
-		width: 26.7%;
+		margin-left: 53.4vw;
+		width: 26.6%;
 		height: 9%;
 	/*	border-radius: 10px;*/
 	}
@@ -488,8 +656,38 @@ footer h1 {
 		float: right;
 	}
 
+	.song {
+
+	}
+
 	.song h2 {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
+	}
+
+	.paired {
+		height: 25vw;
+	}
+
+/* DESIGN: RESUME */
+
+	.resume-preview {
+		margin: 0 auto;
+		height: 500px;
+		background: white;
+		width: 80%;
+		border: 1px solid lightgray;
+		border-radius: 20px;
+		overflow: scroll;
+		cursor: crosshair;
+	}
+
+	.resume-preview img {
+		width: 60vw;
+	}
+
+	.resume-description {
+		margin: 0px auto 20px auto;
+		width: 80%;
 	}
 
 }
@@ -498,12 +696,56 @@ footer h1 {
 
 @media screen and (min-width: 1026px) and (max-width: 1110px) {
 	.hidden p {
-		font-size: .8rem;
+		display: none;
+	}
+
+	.music-overview h2, .design-overview h2, .acting-overview h2 {
+		display: none;
 	}
 
 	a.portlink {
 		margin: none;
 		margin-top: -100px;
 	}
+
+	.song h2 {
+		font-size: .9rem;
+	}
+
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1300px) {
+
+	.widefooter {
+		width: 100%;
+		height: 100px;
+		background: rgba(200, 200, 215, .4);
+		margin-top: 325px;
+	}
+
+	/* DESIGN: RESUME */
+
+	.resume-preview {
+		margin: 0 auto;
+		height: 500px;
+		background: white;
+		width: 80%;
+		border: 1px solid lightgray;
+		border-radius: 20px;
+		overflow: scroll;
+		cursor: crosshair;
+	}
+
+	.resume-preview img {
+		width: 60vw;
+	}
+
+	.resume-description {
+		margin: 0px auto 20px auto;
+		width: 80%;
+	}
+
+}
 
 }
