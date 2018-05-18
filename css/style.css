@@ -59,7 +59,7 @@ nav a {
 .hero {
 	width: 100%;
 	height: 490px;
-	background: url(../images/NR-portrait.jpg) no-repeat center fixed;
+	background: url(../images/NR-Portrait.jpg) no-repeat center fixed;
 	background-size: cover;
 }
 
@@ -75,7 +75,7 @@ nav a {
 	.vitacoco {
 		width: 100%;
 		height: 250px;
-		background: url(../images/hw-megavolt.jpg) no-repeat center;
+		background: url(../images/HW-Megavolt.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -184,14 +184,14 @@ a.sayings:active {
 }
 
 .design-blur {
-	background: url(../images/hw-megavolt-blurred.jpg) center;
+	background: url(../images/HW-Megavolt-blurred.jpg) center;
 	background-size: cover;
 	height: 100%;
 	margin-top: -160px;
 }
 
 .design-clear {
-	background: url(../images/hw-megavolt.jpg) center;
+	background: url(../images/HW-Megavolt.jpg) center;
 	background-size: cover;
 	height: 100%;
 }
@@ -567,7 +567,7 @@ footer h1 {
 
 		.vitacoco {
 			height: 250px;
-			background: url(../images/hw-megavolt.jpg) no-repeat center;
+			background: url(../images/HW-Megavolt.jpg) no-repeat center;
 			background-size: 100%;
 			background-position: cover;
 		}
