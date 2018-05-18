@@ -61,10 +61,7 @@ nav a {
 	height: 490px;
 	background: url(../images/NR-Portrait.jpg) no-repeat center fixed;
 	background-size: cover;
-/* webkit fixed image */
-	webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	position: fixed;
 }
 
 	/* ADDITIONAL HEADER COVERS: MOBILE */
